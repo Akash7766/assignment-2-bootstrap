@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2 - With Bootstrap</title>
+    <!-- Bootstrap linked -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style>
+      @media (max-width: 768px) {
+        .collection h3 {
+          font-size: 35px;
+          font-weight: bold;
+        }
+        .collection h4 {
+          font-size: 30px;
+          font-weight: bold;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white py-4">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">Influencer products</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item fw-bold">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Sign up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Log In</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"
+                  ><i class="fas fa-search"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"
+                  ><i class="fas fa-shopping-cart"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="banner container py-5">
+        <div class="row g-5 column-reverse">
+          <div
+            class="col-md-6 d-flex flex-column justify-content-center align-items-star text-warningt"
+          >
+            <h1 class="fw-bold mb-3">start your Journey as Influencer</h1>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              nostrum libero dicta minus quas maiores, ab temporibus minima! Sit
+              iusto illum ipsum! Quos aliquid necessitatibus sunt sequi, facilis
+              assumenda temporibus?
+            </p>
+            <div>
+              <button
+                class="btn px-3 py-2 rounded-pill btn-hover btn-outline-danger"
+              >
+                Preebook now <i class="fas fa-arrow-right ms-2"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="col-md-6 d-flex justify-content-center align-items-center"
+          >
+            <img src="images/main-camera.png" class="w-75" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="collection container py-4">
+        <h2 class="text-center mb-5">Popular Collection</h2>
+        <div class="row g-5 d-flex justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <img src="images/tripod.png" class="mb-3 w-100" alt="" />
+            <h3 class="fs-sm-2">Flex Tripod</h3>
+            <h4>$50.48</h4>
+            <div>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <span class="ms-2">5.0</span>
+            </div>
+            <p class="m-0 text-muted">Wordwide shifting</p>
+            <p class="m-0 text-muted">available</p>
+            <p class="m-0 text-muted">Buyers protection possible!</p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <img src="images/mic.png" class="mb-3 w-100" alt="" />
+            <h3>Flex Tripod</h3>
+            <h4>$50.48</h4>
+            <div>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <span class="ms-2">5.0</span>
+            </div>
+            <p class="m-0 text-muted">Wordwide shifting</p>
+            <p class="m-0 text-muted">available</p>
+            <p class="m-0 text-muted">Buyers protection possible!</p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <img src="images/airpod.png" class="mb-3 w-100" alt="" />
+            <h3>Flex Tripod</h3>
+            <h4>$50.48</h4>
+            <div>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <span class="ms-2">5.0</span>
+            </div>
+            <p class="m-0 text-muted">Wordwide shifting</p>
+            <p class="m-0 text-muted">available</p>
+            <p class="m-0 text-muted">Buyers protection possible!</p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <img src="images/drone.png" class="mb-3 w-100" alt="" />
+            <h3>Flex Tripod</h3>
+            <h4>$50.48</h4>
+            <div>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <span class="ms-2">5.0</span>
+            </div>
+            <p class="m-0 text-muted">Wordwide shifting</p>
+            <p class="m-0 text-muted">available</p>
+            <p class="m-0 text-muted">Buyers protection possible!</p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <img src="images/setup.png" class="mb-3 w-100" alt="" />
+            <h3>Flex Tripod</h3>
+            <h4>$50.48</h4>
+            <div>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <span class="ms-2">5.0</span>
+            </div>
+            <p class="m-0 text-muted">Wordwide shifting</p>
+            <p class="m-0 text-muted">available</p>
+            <p class="m-0 text-muted">Buyers protection possible!</p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <img src="images/lights.png" class="mb-3 w-100" alt="" />
+            <h3>Flex Tripod</h3>
+            <h4>$50.48</h4>
+            <div>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <span class="ms-2">5.0</span>
+            </div>
+            <p class="m-0 text-muted">Wordwide shifting</p>
+            <p class="m-0 text-muted">available</p>
+            <p class="m-0 text-muted">Buyers protection possible!</p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <img src="images/camera.png" class="mb-3 w-100" alt="" />
+            <h3>Flex Tripod</h3>
+            <h4>$50.48</h4>
+            <div>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <span class="ms-2">5.0</span>
+            </div>
+            <p class="m-0 text-muted">Wordwide shifting</p>
+            <p class="m-0 text-muted">available</p>
+            <p class="m-0 text-muted">Buyers protection possible!</p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <img src="images/action.png" class="mb-3 w-100" alt="" />
+            <h3>Flex Tripod</h3>
+            <h4>$50.48</h4>
+            <div>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <span class="ms-2">5.0</span>
+            </div>
+            <p class="m-0 text-muted">Wordwide shifting</p>
+            <p class="m-0 text-muted">available</p>
+            <p class="m-0 text-muted">Buyers protection possible!</p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <img src="images/single-light.png" class="mb-3 w-100" alt="" />
+            <h3>Flex Tripod</h3>
+            <h4>$50.48</h4>
+            <div>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <span class="ms-2">5.0</span>
+            </div>
+            <p class="m-0 text-muted">Wordwide shifting</p>
+            <p class="m-0 text-muted">available</p>
+            <p class="m-0 text-muted">Buyers protection possible!</p>
+          </div>
+        </div>
+        <div class="text-end mt-3">
+          <a href="" class="text-danger text-decoration-none"
+            >See more <i class="fas fa-arrow-right text-danger ms-2"></i
+          ></a>
+        </div>
+      </section>
+      <section class="feature container my-5">
+        <div class="row g-5">
+          <div class="col-md-5">
+            <img src="images/gear.png" class="w-100" alt="" />
+          </div>
+          <div class="col-md-7 d-flex justify-content-center flex-column">
+            <h2 class="fw-bold">Featured products at one place</h2>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <div>
+              <button class="btn btn-danger">
+                Join Now <i class="fas fa-arrow-right ms-2"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-primary text-center p-4">
+      <p>
+        All right reserved . Mady by
+        <a href="" class="text-decoration-none text-warning">Akash Rahman</a>
+      </p>
+    </footer>
+
+    <!-- bootstrap js file link  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
